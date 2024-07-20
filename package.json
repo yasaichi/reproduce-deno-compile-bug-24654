@@ -1,0 +1,16 @@
+{
+  "name": "reproduce-deno-compile-bug-24654",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "deno compile --output main ./src/main.ts",
+    "start": "./main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "effect": "^3.5.6"
+  }
+}
